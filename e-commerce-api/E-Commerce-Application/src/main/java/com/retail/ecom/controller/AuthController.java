@@ -21,6 +21,7 @@ import lombok.AllArgsConstructor;
 @RequestMapping("/api/ecom/v1")
 @AllArgsConstructor
 public class AuthController {
+	
 	private AuthService authService;
 	
 	@PostMapping("/register")
